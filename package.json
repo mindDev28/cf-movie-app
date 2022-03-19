@@ -1,5 +1,5 @@
 {
-  "name": "cf-movie-app",
+  "name": "front-end",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mindDev28/cf-movie-app.git"
+    "url": "git+https://github.com/mind28/front-end.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mindDev28/cf-movie-app/issues"
+    "url": "https://github.com/mind28/front-end/issues"
   },
-  "homepage": "https://github.com/mindDev28/cf-movie-app#readme"
+  "homepage": "https://github.com/mind28/front-end#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0"
+  }
 }
